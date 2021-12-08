@@ -22,8 +22,19 @@ nums_playd = []
 for num in dummy_nums:
     nums_playd.append(int(num))
     
+# Hacemos una clase para las boletas para el  juego
 
-
+class Board(object):
+    """
+    Estas son las boletas, su parte principal es
+    que son matrices de 5 x 5
+    """
+    
+    def __init__(self,):
+        
+        self.A = A
+        
+        
     
 
 
