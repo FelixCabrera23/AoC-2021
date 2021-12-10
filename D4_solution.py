@@ -27,8 +27,8 @@ for num in dummy_nums:
     
 def fill_mat (nums,boards):
     """
-    Esta función llena genera los objetos Board y los mete 
-    en una lista
+    Esta función genera los objetos Board, llena sus matrices,
+    y los mete en una lista
     regresa: lista de objetos Board
     """
     Board_list = []
@@ -148,6 +148,11 @@ result = juego[turns.index(min(turns))].Set_score()
 
 print(result)
             
+# Part 2
+
+result2 = juego[turns.index(max(turns))].Set_score()
+
+print(result2)
     
 
 
